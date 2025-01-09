@@ -1,0 +1,84 @@
+body {
+    background-color: #A2BDD0;
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*.table-dark {*/
+/*    background-color: #8B8B8B;*/
+/*}*/
+
+.table th {
+    background-color: #8B8B8B;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+}
+
+.btn-new-event {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-new-event:hover {
+    background-color: #0056b3;
+}
+
+.modal-header {
+    border-bottom: none; /* 去掉模态框头部的边框 */
+}
+
+.modal-content {
+    background-color: #c2d4e6; /* 模态框的背景颜色 */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.page-header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.page-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-top: 20px;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 5px;
+}
+.form-label {
+    font-weight: bold;
+}
+.modal-footer {
+    /*border-top: none; !* 去掉模态框底部的边框 *!*/
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+}
